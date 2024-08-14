@@ -21,6 +21,24 @@
       <div id="container">
         <div id="animate"></div>
       </div>
+        <script>
+          function mymove
+              let id = null;
+            const elem = document.getElementById('animate");
+            let pos = 0;
+            clearInterval(id);
+            id = setInterval(frame, 5)
+            function frame() {
+                if (pos == 350){
+                    clearInterval(id);
+                } else {
+                    pos++;
+                    elem.style.top = pos +"px";
+                    elem.stye.left = pos +"px";
+                }
+            }
+            }
+              </script>
     </body>
 
 </html>
